@@ -1,0 +1,19 @@
+VERSION="2.6.0"
+
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+
+ACCOUNTS=[
+"GCO3VC5VN4F6KKH2HZTXKSY2CSQVGVVYWJLC5AUOS7GFQ4E2VTZCOTFH",
+]
+
+[[CURRENCIES]]
+code="EDOGE"
+issuer="GCO3VC5VN4F6KKH2HZTXKSY2CSQVGVVYWJLC5AUOS7GFQ4E2VTZCOTFH"
+name="Eternity Doge"
+desc="Eternity Doge (EDOGE) is a meme token that captures the essence of Doge's enduring appeal. Utilizing IPFS technology, EDOGE creates a permanent home for Doge on the blockchain, ensuring its legacy remains untouched by time. Become an EDOGE holder and be a part of the Doge eternity."
+image="https://ipfs.io/ipfs/bafkreifdv3gimixro4ijxqn6zacwzr6oej22px34kuj23uvw6p22hqv6z4"
+display_decimals=2
+is_asset_anchored=false
+fixed_number=500000000000
+conditions="There will only ever be 500,000,000,000 EDOGE tokens in existence."
