@@ -10,14 +10,14 @@ ACCOUNTS=[
 [DOCUMENTATION]
 ORG_NAME="JET"
 ORG_URL="https://jet.my.id"
-ORG_LOGO="https://jet.my.id/logo.png"
+ORG_LOGO="https://jet.my.id/jet.png"
 
 [[CURRENCIES]]
 code="EDOGE"
 issuer="GCO3VC5VN4F6KKH2HZTXKSY2CSQVGVVYWJLC5AUOS7GFQ4E2VTZCOTFH"
 name="Eternity Doge"
 desc="Eternity Doge (EDOGE) token is a meme token that celebrates dogs, the loyal companions of humans for centuries. Eternity Doge Token is meant to represent the eternal bond between humans and their canine friends."
-image="https://jet.my.id/edoge.png"
+image="https://jet.my.id/eternitydoge.png"
 display_decimals=2
 is_asset_anchored=false
 fixed_number=500000000000
@@ -28,7 +28,7 @@ code="KINTA"
 issuer="GAPJTZXQK5TPMBLSGRLMMWGUUI2C7QIQ7NQM3EDU5I5C3TL3W37I3XCL"
 name="Kintamani"
 desc="Woof woof! Get ready to unleash the power of the Kintamani, Bali's iconic dog breed, with the $KINTA meme token! $KINTA is more than just a cute face on a coin. We're building a community of dog lovers, meme enthusiasts, and crypto adventurers who appreciate the unique spirit of the Kintamani."
-image="https://jet.my.id/kinta.png"
+image="https://jet.my.id/kintamani.png"
 display_decimals=2
 is_asset_anchored=false
 fixed_number=100000000000
