@@ -4,13 +4,25 @@ NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
 
 ACCOUNTS=[
 "GCO3VC5VN4F6KKH2HZTXKSY2CSQVGVVYWJLC5AUOS7GFQ4E2VTZCOTFH",
-"GAPJTZXQK5TPMBLSGRLMMWGUUI2C7QIQ7NQM3EDU5I5C3TL3W37I3XCL"
+"GAPJTZXQK5TPMBLSGRLMMWGUUI2C7QIQ7NQM3EDU5I5C3TL3W37I3XCL", 
+"GASWHVJOVHIQR4YBVQ2RE3PTGT7VKO7NIX6K4HT6SFMHWU7IGP6WUAYG"
 ]
 
 [DOCUMENTATION]
 ORG_NAME="JET"
 ORG_URL="https://jet.my.id"
 ORG_LOGO="https://jet.my.id/jet.png"
+
+[[CURRENCIES]]
+code="JETON"
+issuer="GASWHVJOVHIQR4YBVQ2RE3PTGT7VKO7NIX6K4HT6SFMHWU7IGP6WUAYG"
+name="JETON"
+desc="JETON is a utility token that powers the JET Platform, a platform for creating, sharing, and trading meme tokens on the Stellar blockchain. JETON is an integral part of the platform's ecosystem, providing users with various benefits and functionalities."
+image="https://jet.my.id/jeton.png"
+display_decimals=2
+is_asset_anchored=false
+fixed_number=100000000
+conditions="There will only ever be 100,000,000 JETON tokens in existence."
 
 [[CURRENCIES]]
 code="EDOGE"
