@@ -15,9 +15,7 @@ $(document).ready(function () {
 		$.getJSON(myURL, function(data){
 			$.each(data.esign, function(i, v) {
         if (v.q == idq && v.type == idtype ) {
-				
-           document.getElementById("stellar1").innerHTML = v.q;
-	   document.getElementById("stellar2").innerHTML = v.address;
+	   console.log(JSON.stringify({ stellar_address: v.q, account_id: v.address }));
 		
         }
     });
@@ -42,7 +40,7 @@ function getUrlVars() {
         </script>
 
 <!------ Include the above in your HEAD tag ---------->
-	<p>{"stellar_address":"</p><p id="stellar1"></p><p>","account_id":"</p><p id="stellar2"></p><p>"}</p>
+	
 </head>
 
 </html>
