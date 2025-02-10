@@ -16,7 +16,8 @@ $(document).ready(function () {
 			$.each(data.esign, function(i, v) {
         if (v.q == idq && v.type == idtype ) {
 				
-           document.getElementById("stellar").innerHTML = " {"stellar_address":" " + v.q + " ,"account_id":" " + v.address + " "}" ";
+           document.getElementById("stellar1").innerHTML = v.q;
+	   document.getElementById("stellar2").innerHTML = v.address;
 		
         }
     });
@@ -41,7 +42,11 @@ function getUrlVars() {
         </script>
 
 <!------ Include the above in your HEAD tag ---------->
-	<p id="stellar"></p>
+	<p>{"stellar_address":"</p>
+	</p><p id="stellar1"></p>
+	<p>","account_id":"</p>
+	<p id="stellar2"></p>
+	<p>"}</p>
 </head>
 
 </html>
