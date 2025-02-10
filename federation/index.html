@@ -13,10 +13,8 @@ $(document).ready(function () {
 		$.getJSON(myURL, function(data){
 			$.each(data.esign, function(i, v) {
         if (v.q == idType) {
-             let str = JSON.stringify(v.q)
-	     let std = JSON.stringify(v.address)
-             console.log(str)
-	     console.log(std)
+             console.log(v.q)
+	     console.log(idType)
         }
     });
 		}).fail(function() {
