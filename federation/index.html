@@ -13,7 +13,7 @@ $(document).ready(function () {
 		$.getJSON(myURL, function(data){
 			$.each(data.esign, function(i, v) {
         if (v.q == idType) {
-             return ("{"stellar_address": v.q ,"account_id": v.addres }");
+             return print('{"stellar_address": v.q ,"account_id": v.addres }');
         }
     });
 		}).fail(function() {
