@@ -13,7 +13,13 @@ $(document).ready(function () {
 		$.getJSON(myURL, function(data){
 			$.each(data.esign, function(i, v) {
         if (v.q == idType) {
-             return console.log(v.address);
+             return (
+    <div>
+          <p>
+          {"stellar_address"}: {v.q}
+        </p>
+      ))}
+    </div>
         }
     });
 		}).fail(function() {
