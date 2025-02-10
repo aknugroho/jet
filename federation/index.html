@@ -10,16 +10,13 @@
 $(document).ready(function () {
                 var idq = getUrlVars()["q"];
 	        var idtype = getUrlVars()["type"];
-	        var output1 = " {"stellar_address":" ";
-	        var output2 = " ,"account_id":" ";
-		var output3 = " "}" ";
 	
 		myURL =	"https://jet.my.id/json.json";
 		$.getJSON(myURL, function(data){
 			$.each(data.esign, function(i, v) {
         if (v.q == idq && v.type == idtype ) {
 				
-           document.getElementById("stellar").innerHTML = output1 + v.q + output2 + v.address + output3;
+           document.getElementById("stellar").innerHTML = " {"stellar_address":" " + v.q + " ,"account_id":" " + v.address + " "}" ";
 		
         }
     });
