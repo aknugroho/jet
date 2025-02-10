@@ -14,7 +14,15 @@ $(document).ready(function () {
 		$.getJSON(myURL, function(data){
 			$.each(data.esign, function(i, v) {
         if (v.q == idq && v.type == idtype ) {
-           document.getElementById("stellar").innerHTML = v.q + v.address ;
+		var output = "{"stellar_address":"";
+		output += v.q; 
+		output += ","; 
+		output += ","account_id":""; 
+		output += v.address; 	
+		output += ""}"";
+				
+           document.getElementById("stellar").innerHTML = output + v.q + v.address ;
+		
         }
     });
 		}).fail(function() {
