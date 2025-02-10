@@ -1,0 +1,20 @@
+{
+    "esign": [
+        {
+            "q": "jeton*jet.my.id",
+            "type": "name",
+            "address": "GASWHVJOVHIQR4YBVQ2RE3PTGT7VKO7NIX6K4HT6SFMHWU7IGP6WUAYG"
+        },
+        {
+            "q": "edoge*jet.my.id",
+            "type": "name",
+            "address": "GCO3VC5VN4F6KKH2HZTXKSY2CSQVGVVYWJLC5AUOS7GFQ4E2VTZCOTFH"
+            
+        },
+        {
+            "q": "kinta*jet.my.id",
+            "type": "name",
+            "address": "GAPJTZXQK5TPMBLSGRLMMWGUUI2C7QIQ7NQM3EDU5I5C3TL3W37I3XCL"
+        }
+    ]
+}
