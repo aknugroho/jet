@@ -10,18 +10,16 @@
 $(document).ready(function () {
                 var idq = getUrlVars()["q"];
 	        var idtype = getUrlVars()["type"];
+	        var output1 = " {"stellar_address":" ";
+	        var output2 = " ,"account_id":" ";
+		var output3 = " "}" ";
+	
 		myURL =	"https://jet.my.id/json.json";
 		$.getJSON(myURL, function(data){
 			$.each(data.esign, function(i, v) {
         if (v.q == idq && v.type == idtype ) {
-		var output = "{"stellar_address":"";
-		output += v.q; 
-		output += ","; 
-		output += ","account_id":""; 
-		output += v.address; 	
-		output += ""}"";
 				
-           document.getElementById("stellar").innerHTML = output + v.q + v.address ;
+           document.getElementById("stellar").innerHTML = output1 + v.q + output2 + v.address + output3;
 		
         }
     });
