@@ -13,7 +13,10 @@ $(document).ready(function () {
 		$.getJSON(myURL, function(data){
 			$.each(data.esign, function(i, v) {
         if (v.q == idType) {
-             console.log(v.q)
+             let stlr = v.q
+             const obj = JSON.parse(stlr)
+             const myJSON = JSON.stringify(obj);
+             console.log(myJSON)
         }
     });
 		}).fail(function() {
