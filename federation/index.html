@@ -9,11 +9,10 @@
 <script type="text/javascript">
 $(document).ready(function () {
                 var idType = getUrlVars()["q"];
-                var typetipe = getUrlVars()["type"];
 		myURL =	"https://jet.my.id/json.json";
 		$.getJSON(myURL, function(data){
 			$.each(data.esign, function(i, v) {
-        if (v.q == idType && v.type == typetipe) {
+        if (v.q == idType) {
              return ("{"stellar_address": v.q ,"account_id": v.addres }");
         }
     });
