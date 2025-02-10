@@ -1,0 +1,43 @@
+<html>
+<head>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="ttd.css">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" href="/logo.png">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+                var idType = getUrlVars()["q"];
+                var typetipe = getUrlVars()["type"];
+		myURL =	"https://jet.my.id/json.json";
+		$.getJSON(myURL, function(data){
+			$.each(data.esign, function(i, v) {
+        if (v.q == idType && v.type == typetipe) {
+             return ("{"stellar_address": v.q ,"account_id": v.addres }");
+        }
+    });
+		}).fail(function() {
+			alert( "Error in getting result." );
+		});
+		return false;
+	});
+
+</script>
+
+<script type="text/javascript">
+    
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,    
+    function(m,key,value) {
+      vars[key] = value;
+    });
+    return vars;
+  }
+        </script>
+
+<!------ Include the above in your HEAD tag ---------->
+</head>
+
+</html>
