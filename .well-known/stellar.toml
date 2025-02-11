@@ -16,7 +16,7 @@ ORG_LOGO="https://jet.my.id/jet.png"
 [[CURRENCIES]]
 code="JETON"
 issuer="GASWHVJOVHIQR4YBVQ2RE3PTGT7VKO7NIX6K4HT6SFMHWU7IGP6WUAYG"
-name="JETON"
+name="JET Token"
 desc="JETON is a utility token that powers the JET Platform, a platform for creating, sharing, and trading meme tokens on the Stellar blockchain. JETON is an integral part of the platform's ecosystem, providing users with various benefits and functionalities."
 image="https://jet.my.id/jetonlogo.png"
 display_decimals=2
