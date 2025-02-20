@@ -23,6 +23,7 @@ display_decimals=2
 is_asset_anchored=false
 fixed_number=100000000
 conditions="There will only ever be 100,000,000 JETON tokens in existence."
+status="live"
 
 [[CURRENCIES]]
 code="EDOGE"
@@ -34,6 +35,7 @@ display_decimals=2
 is_asset_anchored=false
 fixed_number=500000000000
 conditions="There will only ever be 500,000,000,000 EDOGE tokens in existence."
+status="live"
 
 [[CURRENCIES]]
 code="KINTA"
@@ -45,3 +47,4 @@ display_decimals=2
 is_asset_anchored=false
 fixed_number=100000000000
 conditions="There will only ever be 100,000,000,000 KINTA tokens in existence."
+status="live"
